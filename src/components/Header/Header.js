@@ -1,7 +1,8 @@
 import React from 'react';
 import { View, Text, TextInput } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
-import MI from 'react-native-vector-icons/MaterialIcons';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import SLIcons from 'react-native-vector-icons/SimpleLineIcons';
 
 import Styles from './Style';
 
@@ -17,14 +18,16 @@ const Header = () => {
         >
           <TextInput
             style={Styles.input}
-            inlineImageLeft="search_icon"
             placeholder="Pesquisar na Amazon.com.br"
           />
         </LinearGradient>
       </View>
       <View style={Styles.container}>
-        <MI name="search" style={Styles.icon} />
-        <Text>Enviar para Danielli Caovilla - Petrópolis 25665</Text>
+        <Text style={Styles.textoEndereco}>
+          <SLIcons name="location-pin" style={Styles.iconeEndereco} />
+          Enviar para Danielli Caovilla - Petrópolis 25665  
+          <SLIcons name="arrow-down" style={Styles.iconeEndereco2} />
+        </Text>
       </View>
     </>
   );

@@ -33,22 +33,20 @@ const styles = StyleSheet.create({
     padding: 10,
     borderColor: '#757575',
     borderRadius: 10,
-    backgroundColor: 'white'
+    backgroundColor: 'white',
   },
-  linearGradient: {
-    flex: 1,
-    paddingLeft: 15,
-    paddingRight: 15,
-    borderRadius: 5
+  textoEndereco: {
+    fontSize: 12,
+    color: 'black'
   },
-  buttonText: {
-    fontSize: 18,
-    fontFamily: 'Gill Sans',
-    textAlign: 'center',
-    margin: 10,
-    color: '#ffffff',
-    backgroundColor: 'transparent',
+  iconeEndereco: {
+    color: 'black',
+    fontSize: 16
   },
+  iconeEndereco2: {
+    color: 'black',
+    fontSize: 12
+  }
 });
 
 export default styles;

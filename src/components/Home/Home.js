@@ -1,45 +1,60 @@
 import React from 'react';
-import { View, Text, Image, ScrollView } from 'react-native';
+import {View, Text, Image, ScrollView} from 'react-native';
 
 import Header from './../Header/Header';
-// import Footer from './../Footer/Footer';
+import Footer from './../Footer/Footer';
 
 import Styles from './Style';
 
 const Home = () => {
-    return (
-        <>
-            <Header />
-            <ScrollView>
-                <View style={Styles.container}>
-                    <Text style={Styles.destaque}>Mixtapes criadas para você</Text>
-                    {/* <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} style={Styles.containerCapas}>
-                        <View style={Styles.boxCapa}>
-                            <Image
-                                style={Styles.capa}
-                                source={require('./../../../assets/images/capa03.png')}
-                            />
-                            <Text style={Styles.destaqueCapas}>Mix de descobertas</Text>
-                            <Text style={Styles.textoCapas}>Atualizada toda quarta</Text>
-                        </View>
-                        <View style={Styles.boxCapa}>
-                            <Image
-                                style={Styles.capa}
-                                source={require('./../../../assets/images/capa07.png')}
-                            />
-                            <Text style={Styles.destaqueCapas}>Gostei</Text>
-                            <Text style={Styles.textoCapas}>Playlist automática</Text>
-                        </View>
-                        <View style={Styles.boxCapa}>
-                            <Image
-                                style={Styles.capa}
-                                source={require('./../../../assets/images/capa01.png')}
-                            />
-                            <Text style={Styles.destaqueCapas}>Mix de lançamentos</Text>
-                            <Text style={Styles.textoCapas}>Atualizada recentemente</Text>
-                        </View>
-                    </ScrollView>
-                    <Text style={Styles.destaque}>Gás para treinar</Text>
+  return (
+    <>
+      <Header />
+      <ScrollView>
+        <View style={Styles.container}>
+          <View style={Styles.boxDestaque}>
+            <Image
+              style={Styles.destaque}
+              source={require('./../../assets/imagens/slides/slide-01.jpg')}
+            />
+          </View>
+          <Text style={Styles.destaque}>
+            Fim de Ano | Presentes para surpreender
+          </Text>
+          <ScrollView
+            horizontal={true}
+            showsHorizontalScrollIndicator={false}
+            style={Styles.containerCapas}>
+            <View style={Styles.boxCapa}>
+              <Image
+                style={Styles.capa}
+                source={require('./../../assets/imagens/destaque-01.jpg')}
+              />
+              <Text style={Styles.textoCapas}>Todas as Novidades</Text>
+            </View>
+            <View style={Styles.boxCapa}>
+              <Image
+                style={Styles.capa}
+                source={require('./../../assets/imagens/destaque-02.jpg')}
+              />
+              <Text style={Styles.textoCapas}>Feminino</Text>
+            </View>
+            <View style={Styles.boxCapa}>
+              <Image
+                style={Styles.capa}
+                source={require('./../../assets/imagens/destaque-03.jpg')}
+              />
+              <Text style={Styles.textoCapas}>Masculino</Text>
+            </View>
+            <View style={Styles.boxCapa}>
+              <Image
+                style={Styles.capa}
+                source={require('./../../assets/imagens/destaque-04.jpg')}
+              />
+              <Text style={Styles.textoCapas}>Meninas</Text>
+            </View>
+          </ScrollView>
+          {/* <Text style={Styles.destaque}>Gás para treinar</Text>
                     <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} style={Styles.containerCapas}>
                         <View style={Styles.boxCapa}>
                             <Image
@@ -93,11 +108,11 @@ const Home = () => {
                             <Text style={Styles.textoCapas}>Playlist • Youtube Music</Text>
                         </View>
                     </ScrollView> */}
-                </View>
-            </ScrollView>
-            <Footer />
-        </>
-    );
+        </View>
+      </ScrollView>
+      <Footer />
+    </>
+  );
 };
 
 export default Home;

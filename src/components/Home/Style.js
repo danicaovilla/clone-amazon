@@ -3,9 +3,6 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        paddingVertical: 30,
-        paddingHorizontal: 10,
-        backgroundColor: '#000'
     },
     destaque: {
         paddingBottom: 20,
@@ -16,6 +13,15 @@ const styles = StyleSheet.create({
     containerCapas: {
         flexDirection: 'row',
         marginBottom: 50
+    },
+    destaque: {
+        width: 'auto',
+        height: 280
+
+    },
+    boxDestaque: {
+        width: '100%'
+
     },
     capa: {
         width: 185,
