@@ -2,6 +2,8 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
+    justifyContent: 'space-between',
+    alignItems: 'center',
     padding: 10,
     flexDirection: 'row',
     backgroundColor: '#c8f1e3',
@@ -24,14 +26,34 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 26,
   },
-  input: {
-    width: '100%',
-    height: 40,
+  buscaContainer: {
     padding: 10,
+    flexDirection: 'row',
+    backgroundColor: '#c8f1e3',
+  },
+  buscaBox: {
+    flexDirection: 'row',
+    width: '100%',
+    paddingHorizontal: 10,
     borderWidth: 1,
     borderColor: '#757575',
     borderRadius: 10,
     backgroundColor: 'white',
+  },
+  buscaIcone: {
+    paddingTop: 10
+  },
+  buscaInput: {
+    flex: 1,
+    width: '100%',
+    height: 40,
+    padding: 10,
+    backgroundColor: 'white',
+  },
+  containerEndereco: {
+    padding: 10,
+    flexDirection: 'row',
+    backgroundColor: '#c8f1e3',
   },
   textoEndereco: {
     fontSize: 12,

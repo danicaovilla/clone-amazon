@@ -14,15 +14,18 @@ const Header = () => {
           start={{x: 0, y: 0}}
           end={{x: 1, y: 0}}
           colors={['#41d9e4', '#a5e6ce']}
-          style={Styles.container}
+          style={Styles.buscaContainer}
         >
-          <TextInput
-            style={Styles.input}
-            placeholder="Pesquisar na Amazon.com.br"
-          />
+          <View style={Styles.buscaBox}>
+            <Ionicons name="search" size={20} color={'#000'} style={Styles.buscaIcone} />
+            <TextInput
+              style={Styles.buscaInput}
+              placeholder="Pesquisar na Amazon.com.br"
+            />
+          </View>
         </LinearGradient>
       </View>
-      <View style={Styles.container}>
+      <View style={Styles.containerEndereco}>
         <SLIcons name="location-pin" style={Styles.iconeEndereco} />
         <Text style={Styles.textoEndereco}>
           Enviar para Danielli Caovilla - Petrópolis 25665
