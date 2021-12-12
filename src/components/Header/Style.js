@@ -2,8 +2,6 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    justifyContent: 'space-between',
-    alignItems: 'center',
     padding: 10,
     flexDirection: 'row',
     backgroundColor: '#c8f1e3',
@@ -29,23 +27,26 @@ const styles = StyleSheet.create({
   input: {
     width: '100%',
     height: 40,
-    borderWidth: 1,
     padding: 10,
+    borderWidth: 1,
     borderColor: '#757575',
     borderRadius: 10,
     backgroundColor: 'white',
   },
   textoEndereco: {
     fontSize: 12,
-    color: 'black'
+    color: 'black',
   },
   iconeEndereco: {
+    marginRight: 5,
     color: 'black',
     fontSize: 16
   },
   iconeEndereco2: {
+    marginTop: 5,
+    marginLeft: 5,
     color: 'black',
-    fontSize: 12
+    fontSize: 10
   }
 });
 

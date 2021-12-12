@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, TextInput } from 'react-native';
+import {View, Text, TextInput} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import SLIcons from 'react-native-vector-icons/SimpleLineIcons';
@@ -23,11 +23,11 @@ const Header = () => {
         </LinearGradient>
       </View>
       <View style={Styles.container}>
+        <SLIcons name="location-pin" style={Styles.iconeEndereco} />
         <Text style={Styles.textoEndereco}>
-          <SLIcons name="location-pin" style={Styles.iconeEndereco} />
-          Enviar para Danielli Caovilla - Petrópolis 25665  
-          <SLIcons name="arrow-down" style={Styles.iconeEndereco2} />
+          Enviar para Danielli Caovilla - Petrópolis 25665
         </Text>
+        <SLIcons name="arrow-down" style={Styles.iconeEndereco2} />
       </View>
     </>
   );
