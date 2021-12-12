@@ -19,10 +19,6 @@ const styles = StyleSheet.create({
         color: '#999',
         fontSize: 12
     },
-    icon: {
-        color: 'black',
-        fontSize: 26
-    }
 });
 
 export default styles;

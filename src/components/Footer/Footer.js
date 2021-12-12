@@ -10,16 +10,16 @@ const Footer = () => {
     <>
       <View style={Styles.container}>
         <View style={Styles.subcontainer}>
-          <IonIcons name="home-outline" style={Styles.icon} />
+          <IonIcons name="home-outline" size={26} color={'#000'} style={Styles.icon} />
         </View>
         <View style={Styles.subcontainer}>
-          <IonIcons name="person-outline" style={Styles.icon} />
+          <IonIcons name="person-outline" size={26} color={'#000'} style={Styles.icon} />
         </View>
         <View style={Styles.subcontainer}>
-          <IonIcons name="cart-outline" style={Styles.icon} />
+          <IonIcons name="cart-outline" size={26} color={'#000'} style={Styles.icon} />
         </View>
         <View style={Styles.subcontainer}>
-          <FAIcons name="bars" style={Styles.icon} />
+          <FAIcons name="bars" size={26} color={'#000'} style={Styles.icon} />
         </View>
       </View>
     </>

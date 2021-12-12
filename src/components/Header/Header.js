@@ -26,11 +26,11 @@ const Header = () => {
         </LinearGradient>
       </View>
       <View style={Styles.containerEndereco}>
-        <SLIcons name="location-pin" style={Styles.iconeEndereco} />
+        <SLIcons name="location-pin" size={16} color={'#000'} style={Styles.iconeEndereco} />
         <Text style={Styles.textoEndereco}>
           Enviar para Danielli Caovilla - Petrópolis 25665
         </Text>
-        <SLIcons name="arrow-down" style={Styles.iconeEndereco2} />
+        <SLIcons name="arrow-down" size={10} color={'#000'} style={Styles.iconeEndereco2} />
       </View>
     </>
   );

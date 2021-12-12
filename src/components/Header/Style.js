@@ -61,14 +61,10 @@ const styles = StyleSheet.create({
   },
   iconeEndereco: {
     marginRight: 5,
-    color: 'black',
-    fontSize: 16
   },
   iconeEndereco2: {
     marginTop: 5,
     marginLeft: 5,
-    color: 'black',
-    fontSize: 10
   }
 });
 
