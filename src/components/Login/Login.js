@@ -9,7 +9,7 @@ const Login = ({ navigation }) => {
             <View style={Styles.container}>
                 <Image
                     style={Styles.image}
-                    source={require('./../../../assets/images/yt-music-logo-login.png')}
+                    source={require('./../../assets/imagens/amazon-logo.png')}
                 />
                 <Text style={Styles.destaque}>Entre no mundo da música</Text>
                 <Text style={Styles.descricao}>Faça login para ver playlists, álbuns e artistas e fazer streaming desse conteúdo no YouTube Music</Text>
