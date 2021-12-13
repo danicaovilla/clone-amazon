@@ -6,13 +6,11 @@ const styles = StyleSheet.create({
         alignContent: 'center',
         alignItems: 'center',
         paddingTop: 30,
-        // paddingHorizontal: 35,
         backgroundColor: 'white'
     },
     image: {
         width: 220,
         height: 170,
-        // marginBottom: 5,
     },
     destaque: {
         marginBottom: 10,
@@ -20,21 +18,18 @@ const styles = StyleSheet.create({
         paddingBottom: 5,
         color: 'black',
         fontSize: 24,
-        fontFamily: 'Euclid Extra Bold'
     },
     descricao: {
         paddingBottom: 10,
         color: 'black',
         fontSize: 18,
         right: 65,
-        // fontFamily: 'Euclid Extra Bold'
     },
     descricaoOrdenar: {
         paddingBottom: 10,
         color: 'black',
         fontSize: 18,
         textAlign: 'center',
-        // fontFamily: 'Euclid Extra Bold'
     },
     buttonCliente: {
         width: '90%',

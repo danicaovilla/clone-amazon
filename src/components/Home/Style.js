@@ -37,7 +37,6 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 16,
     fontWeight: 'bold',
-    fontFamily: 'Euclid Extra Bold',
   },
   textoCapas: {
     color: '#999',
