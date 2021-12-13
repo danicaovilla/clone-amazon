@@ -14,12 +14,6 @@ const Home = () => {
       <ScrollView>
         <View style={Styles.container}>
           <Slide />
-          {/* <View style={Styles.boxSlide}>
-            <Image
-              style={Styles.slide}
-              source={require('./../../assets/imagens/slides/slide-01.jpg')}
-            />
-          </View> */}
           <Text style={Styles.textoDestaque}>
             Vem Verão | Amazon Moda
           </Text>
