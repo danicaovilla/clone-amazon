@@ -5,40 +5,62 @@ const styles = StyleSheet.create({
         flex: 1,
         alignContent: 'center',
         alignItems: 'center',
-        paddingTop: 100,
-        paddingHorizontal: 35,
-        backgroundColor: '#000'
+        paddingTop: 30,
+        // paddingHorizontal: 35,
+        backgroundColor: 'white'
     },
     image: {
-        marginBottom: 40
+        width: 220,
+        height: 170,
+        // marginBottom: 5,
     },
     destaque: {
-        paddingBottom: 20,
-        color: '#ffffff',
+        marginBottom: 10,
+        fontWeight: '700',
+        paddingBottom: 5,
+        color: 'black',
         fontSize: 24,
         fontFamily: 'Euclid Extra Bold'
     },
     descricao: {
-        paddingBottom: 120,
-        textAlign: 'center',
-        color: '#fff',
-        fontFamily: 'Euclid Extra Bold'
+        paddingBottom: 10,
+        color: 'black',
+        fontSize: 18,
+        right: 65,
+        // fontFamily: 'Euclid Extra Bold'
     },
-    button: {
-        marginBottom: 30,
+    descricaoOrdenar: {
+        paddingBottom: 10,
+        color: 'black',
+        fontSize: 18,
+        textAlign: 'center',
+        // fontFamily: 'Euclid Extra Bold'
+    },
+    buttonCliente: {
+        width: '90%',
+        marginBottom: 15,
         paddingVertical: 10,
         paddingHorizontal: 20,
-        borderRadius: 3,
-        backgroundColor: '#fff'
+        borderWidth: 1,
+        borderColor: '#dabd6f',
+        borderRadius: 5,
+        backgroundColor: '#f2cf6b'
+    },
+    button: {
+        width: '90%',
+        marginBottom: 15,
+        paddingVertical: 10,
+        paddingHorizontal: 20,
+        borderWidth: 1,
+        borderColor: '#b5b5bd',
+        borderRadius: 5,
+        backgroundColor: '#eff0f4'
     },
     buttonTexto: {
-        fontSize: 18,
-        fontFamily: 'Euclid Extra'
+        textAlign: 'center',
+        fontSize: 16,
+        color: 'black',
     },
-    link: {
-        color: '#fff',
-        fontFamily: 'Euclid Extra Bold'
-    }
 });
 
 export default styles;

@@ -26,29 +26,46 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 26,
   },
-  input: {
-    width: '100%',
-    height: 40,
-    borderWidth: 1,
+  buscaContainer: {
     padding: 10,
+    flexDirection: 'row',
+    backgroundColor: '#c8f1e3',
+  },
+  buscaBox: {
+    flexDirection: 'row',
+    width: '100%',
+    paddingHorizontal: 10,
+    borderWidth: 1,
     borderColor: '#757575',
     borderRadius: 10,
-    backgroundColor: 'white'
+    backgroundColor: 'white',
   },
-  linearGradient: {
+  buscaIcone: {
+    paddingTop: 10
+  },
+  buscaInput: {
     flex: 1,
-    paddingLeft: 15,
-    paddingRight: 15,
-    borderRadius: 5
+    width: '100%',
+    height: 40,
+    padding: 10,
+    backgroundColor: 'white',
   },
-  buttonText: {
-    fontSize: 18,
-    fontFamily: 'Gill Sans',
-    textAlign: 'center',
-    margin: 10,
-    color: '#ffffff',
-    backgroundColor: 'transparent',
+  containerEndereco: {
+    padding: 10,
+    flexDirection: 'row',
+    backgroundColor: '#c8f1e3',
   },
+  textoEndereco: {
+    fontSize: 12,
+    color: 'black',
+  },
+  iconeEndereco: {
+    marginRight: 5,
+  },
+  iconeEndereco2: {
+    marginTop: 5,
+    marginLeft: 5,
+  }
 });
 
 export default styles;

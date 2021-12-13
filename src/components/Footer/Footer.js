@@ -1,28 +1,29 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import {View} from 'react-native';
+import IonIcons from 'react-native-vector-icons/Ionicons';
+import FAIcons from 'react-native-vector-icons/FontAwesome5';
 
 import Styles from './Style';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const Footer = () => {
-    return (
-        <>
-            <View style={Styles.container}>
-                <View style={Styles.subcontainer}>
-                    <Icon name="home" style={Styles.icon} />
-                    <Text style={Styles.texto}>Início</Text>
-                </View>
-                <View style={Styles.subcontainer}>
-                    <Icon name="compass" style={Styles.icon} />
-                    <Text style={Styles.texto}>Explorar</Text>
-                </View>
-                <View style={Styles.subcontainer}>
-                    <Icon name="music-box-multiple" style={Styles.icon} />
-                    <Text style={Styles.texto}>Biblioteca</Text>
-                </View>
-            </View>
-        </>
-    )
-}
+  return (
+    <>
+      <View style={Styles.container}>
+        <View style={Styles.subcontainer}>
+          <IonIcons name="home-outline" size={26} color={'#000'} style={Styles.icon} />
+        </View>
+        <View style={Styles.subcontainer}>
+          <IonIcons name="person-outline" size={26} color={'#000'} style={Styles.icon} />
+        </View>
+        <View style={Styles.subcontainer}>
+          <IonIcons name="cart-outline" size={26} color={'#000'} style={Styles.icon} />
+        </View>
+        <View style={Styles.subcontainer}>
+          <FAIcons name="bars" size={26} color={'#000'} style={Styles.icon} />
+        </View>
+      </View>
+    </>
+  );
+};
 
 export default Footer;
